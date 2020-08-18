@@ -1,0 +1,75 @@
+/***** Custom section ****/
+.logo-navbar {
+  max-height: 32px;
+}
+
+.featured-service {
+  margin: 5rem 0;
+}
+
+.bg-creme {
+  background-color: #ffedcc !important;
+}
+
+a.bg-creme:hover, a.bg-creme:focus,
+button.bg-creme:hover,
+button.bg-creme:focus {
+  background-color: #dae0e5 !important;
+}
+
+.bg-green {
+  background-color: #3d6342 !important;
+}
+
+a.bg-green:hover, a.bg-green:focus,
+button.bg-green:hover,
+button.bg-green:focus {
+  background-color: #dae0e5 !important;
+}
+
+/***** Overwrite section ****/
+.services-section {
+  padding: 10rem 0;
+}
+.services-section .featured-text {
+  padding: 2rem;
+}
+@media (min-width: 992px) {
+  .services-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+  }
+}
+.services-section .service-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+@media (min-width: 992px) {
+  .services-section .service-text {
+    padding: 5rem;
+  }
+  .services-section .service-text hr {
+    border-color: #64a19d;
+    border-width: 0.25rem;
+    width: 30%;
+  }
+}
+
+.contact-section {
+  padding: 10rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/bg-signup.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+.contact-section .form-inline input {
+  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1.25rem 2rem;
+  height: auto;
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 80%;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  border: 0;
+}
