@@ -93,9 +93,14 @@ button.bg-pink:focus {
     max-width: 75%;
     height: auto;
   }
-  
+
   #masthead-logo {
     width: 100%;
+  }
+
+  #about .featured-text {
+    border-left: 0.5rem solid #EFEDE1;
+    padding-left: 0.5rem;
   }
 }
 
@@ -105,7 +110,6 @@ button.bg-pink:focus {
   height: auto;
   min-height: 35rem;
   padding: 5rem 0;
-  /*background: linear-gradient(to bottom, #BA8585 0%, #BA8585 45%, #EFEDE1 100%);*/
   background: #BA8585 !important;
   background-position: center;
   background-repeat: no-repeat;
@@ -115,8 +119,8 @@ button.bg-pink:focus {
 
 .about-section {
   padding-top: 5rem;
-  /*background: linear-gradient(to top, #BA8585 0%, #BA8585 45%, #EFEDE1 100%);*/
   background: #BA8585 !important;
+  border-top: 0.1rem solid #EFEDE1;
 }
 
 .about-section p {
