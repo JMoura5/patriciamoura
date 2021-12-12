@@ -98,7 +98,8 @@ button.bg-pink:focus {
     width: 100%;
   }
 
-  #about .featured-text {
+  #about .featured-text,
+  #book .featured-text {
     border-left: 0.5rem solid #EFEDE1;
     padding-left: 0.5rem;
   }
@@ -117,7 +118,8 @@ button.bg-pink:focus {
   background-size: cover;
 }
 
-.about-section {
+.about-section,
+.book-section {
   padding-top: 5rem;
   background: #BA8585 !important;
   border-top: 0.1rem solid #EFEDE1;
@@ -226,4 +228,19 @@ button.bg-pink:focus {
 
 .footer {
   padding: 3rem 0;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:60%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
 }
